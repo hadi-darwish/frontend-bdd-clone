@@ -1,0 +1,88 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  height: 100%;
+}
+
+/* Nav Bar */
+
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.top-nav > img {
+  margin-top: 2vh;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.links > li {
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+.links > li:last-child {
+  margin-right: 0;
+}
+
+/* Hero */
+.hero {
+  background: url("../images/slide1.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+.hero-content {
+  margin: 30vh 0;
+  align-self: center;
+  justify-content: center;
+}
+.hero-heading {
+  text-transform: uppercase;
+  font-family: "The Mix Black";
+  font-size: 3rem;
+  text-align: center;
+  padding: 0 25vh;
+}
+
+/* Utilities */
+
+.container {
+  padding: 0 12vh;
+  width: 100%;
+}
+
+.btn {
+  padding: 0.8rem 1.4rem;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-blue {
+  background-color: #0078be;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
