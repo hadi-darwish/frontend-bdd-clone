@@ -129,6 +129,47 @@ body {
   margin-bottom: 10vh;
 }
 
+/* Video */
+
+.video-part {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/parallax-4.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: max-content;
+}
+.video-part > h3 {
+  margin: 5vh;
+  text-align: center;
+  font-size: xx-large;
+  color: white;
+}
+.video {
+  /* height: 50vh; */
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 5vh;
+}
+.img1 {
+  height: 20vw;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img2 {
+  height: 2vw;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  top: -8vw;
+  left: -19vw;
+}
 /* Utilities */
 
 .container {
