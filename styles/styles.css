@@ -170,6 +170,67 @@ body {
   top: -8vw;
   left: -19vw;
 }
+
+/* Services*/
+
+.services {
+  margin-top: 5vh;
+  height: 100%;
+}
+.services-part {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.offers {
+  background-image: url("../images/bg-icon.png");
+  background-color: white;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 11px;
+  border-spacing: x;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 0 2vh;
+  margin-bottom: 10vh;
+  flex-grow: 1;
+  box-shadow: 5px 5px whitesmoke;
+  justify-self: center;
+  justify-content: space-between;
+}
+
+.offers > button {
+  width: 200px;
+  align-self: center;
+  margin-bottom: 5vh;
+}
+.offers > h5 {
+  align-self: center;
+  text-align: center;
+  margin: 2vh 0;
+  font-size: larger;
+  text-transform: uppercase;
+}
+
+.offers > ul {
+  align-self: center;
+  text-align: center;
+  word-wrap: normal;
+  color: #646464;
+  font-size: larger;
+  line-height: 3vh;
+  margin-bottom: 10vh;
+  list-style-image: url("../images/icons/bullet5.png");
+  line-height: 4vh;
+  list-style-position: inside;
+}
+
+.bdd-image {
+  height: 25vw;
+}
+
 /* Utilities */
 
 .container {
@@ -188,4 +249,11 @@ body {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 700px) {
+  .mobile {
+    display: none;
+  }
 }
