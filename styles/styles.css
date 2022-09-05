@@ -358,6 +358,32 @@ body {
   color: #646464;
   margin-bottom: 5vh;
 }
+
+/* Academy */
+
+.academy {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/parallax-7.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+.academy > button {
+  margin-bottom: 5vh;
+}
+.u {
+  color: white;
+  text-transform: uppercase;
+}
+.r {
+  color: white;
+}
+
 /* Utilities */
 
 .container {
