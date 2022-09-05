@@ -231,6 +231,79 @@ body {
   height: 25vw;
 }
 
+/* Download */
+.download {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 5vh;
+}
+.download > h3 {
+  color: #646464;
+  margin-bottom: 2vh;
+}
+.stores > img {
+  width: 200px;
+}
+
+/* Preferred */
+
+.preferred {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/parallax-light.jpg");
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: color;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  margin-bottom: 5vh;
+  /* height: max-content; */
+}
+.preferred h3 {
+  align-self: center;
+  text-align: center;
+  margin: 2vh 0;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+
+.number-parts {
+  display: flex;
+  justify-content: space-around;
+}
+.numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  margin: 5vh;
+}
+
+.numbers > img {
+  height: 50%;
+}
+.numbers > p {
+  text-align: center;
+  width: 200px;
+  font-weight: bold;
+}
+
+.n1 {
+  color: teal;
+}
+.n2 {
+  color: purple;
+}
+.n3 {
+  color: blue;
+}
+.n4 {
+  color: green;
+}
+
 /* Utilities */
 
 .container {
