@@ -272,6 +272,7 @@ body {
 .number-parts {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .numbers {
   display: flex;
@@ -304,6 +305,59 @@ body {
   color: green;
 }
 
+/* Trending */
+
+.trending {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trending > h3 {
+  align-self: center;
+  text-align: center;
+  margin: 2vh 0;
+  font-size: xx-large;
+  text-transform: uppercase;
+}
+.trending > button {
+  margin-bottom: 5vh;
+  width: 200px;
+}
+.trending-parts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tr {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh;
+  background-color: white;
+  border-style: solid;
+  border-color: aliceblue;
+  border-radius: 11px;
+  margin-bottom: 10vh;
+  box-shadow: 5px 5px whitesmoke;
+  justify-self: center;
+  width: 450px;
+  justify-content: space-around;
+}
+.tr > img {
+  border-radius: 11px;
+  height: auto;
+  width: 100%;
+  margin-bottom: 15%;
+}
+.tr > p {
+  text-transform: uppercase;
+  font-size: larger;
+  margin-bottom: 2vh;
+}
+
+.date {
+  color: #646464;
+  margin-bottom: 5vh;
+}
 /* Utilities */
 
 .container {
@@ -322,6 +376,12 @@ body {
   color: white;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.dash {
+  border-top: 3px solid #000;
+  width: 100%;
+  margin: 0 auto;
 }
 
 /* Media Queries */
