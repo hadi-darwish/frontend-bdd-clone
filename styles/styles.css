@@ -425,7 +425,53 @@ body {
 
 /* Footer */
 footer {
-  background-color: red;
+  background-color: #212121;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2vh;
+}
+.row2 {
+  justify-content: space-between;
+}
+
+.row ul {
+  list-style: none;
+}
+.row img {
+  width: 200px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2vh;
+}
+.col h6 {
+  font-weight: 600;
+  color: #b6b6b6;
+  font-size: 1rem;
+  margin-bottom: 1vh;
+}
+
+.col b {
+  font-weight: bolder;
+  color: #646464;
+  line-height: 1.5;
+  margin: 1vh 0;
+}
+
+.col li {
+  color: #f9f9f9;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  font-weight: bold;
 }
 
 /* Utilities */
